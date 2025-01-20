@@ -2706,7 +2706,7 @@
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "1e0bb1a7-2407-423d-8772-0ade30663a09")
-		(at 105.78 61.77 180)
+		(at 107.78 61.77 180)
 		(descr "Kailh Choc keyswitch V1 CPG1350 V1 Hotswap Plated Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 Hotswap Plated Cutout Keycap 1.00u")
 		(property "Reference" "K_3"
@@ -3934,7 +3934,7 @@
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "21219398-d316-4753-b051-61e309a8a198")
-		(at 87.28 61.77 180)
+		(at 89.78 61.77 180)
 		(descr "Kailh Choc keyswitch V1 CPG1350 V1 Hotswap Plated Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 Hotswap Plated Cutout Keycap 1.00u")
 		(property "Reference" "K_2"
@@ -17555,7 +17555,7 @@
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "60130291-879d-4520-98c5-1873b56e9000")
-		(at 68.78 61.77 180)
+		(at 71.78 61.77 180)
 		(descr "Kailh Choc keyswitch V1 CPG1350 V1 Hotswap Plated Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 Hotswap Plated Cutout Keycap 1.00u")
 		(property "Reference" "K_1"
@@ -18783,7 +18783,7 @@
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "6039514e-b1b5-4cf2-8f30-1bcfd00eee32")
-		(at 161.28 61.77 180)
+		(at 161.78 61.77 180)
 		(descr "Kailh Choc keyswitch V1 CPG1350 V1 Hotswap Plated Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 Hotswap Plated Cutout Keycap 1.00u")
 		(property "Reference" "K_6"
@@ -34973,7 +34973,7 @@
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "dbb963c2-d5db-4207-9d06-4ba7fb5d368d")
-		(at 142.78 61.77 180)
+		(at 143.78 61.77 180)
 		(descr "Kailh Choc keyswitch V1 CPG1350 V1 Hotswap Plated Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 Hotswap Plated Cutout Keycap 1.00u")
 		(property "Reference" "K_5"
@@ -41339,7 +41339,7 @@
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "fb78845a-163d-481b-bf4b-ebb428bf2714")
-		(at 124.28 61.77 180)
+		(at 125.78 61.77 180)
 		(descr "Kailh Choc keyswitch V1 CPG1350 V1 Hotswap Plated Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 Hotswap Plated Cutout Keycap 1.00u")
 		(property "Reference" "K_4"
