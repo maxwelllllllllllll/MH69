@@ -1362,16 +1362,16 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3"
+	(footprint "MountingHole:MountingHole_2.2mm_M2_DIN965"
 		(layer "F.Cu")
 		(uuid "06426473-2e10-4508-944a-5ab1cba517d5")
 		(at 164.02 130.02)
-		(descr "Mounting Hole 3.2mm, no annular, M3")
-		(tags "mounting hole 3.2mm no annular m3")
+		(descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
+		(tags "mounting hole 2.2mm no annular m2 din965")
 		(property "Reference" "H1"
-			(at 0 -4.2 0)
+			(at 0 -2.9 0)
 			(layer "F.SilkS")
-			(uuid "3febfa22-878d-4972-aa44-aec32c5326bf")
+			(uuid "934fa43c-2a64-434d-8660-1fe4e3428987")
 			(effects
 				(font
 					(size 1 1)
@@ -1380,9 +1380,9 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 4.2 0)
+			(at 0 2.9 0)
 			(layer "F.Fab")
-			(uuid "6db8276b-8cf9-4f70-9a85-f80f93f1fcc1")
+			(uuid "060b5d4d-69ee-4c25-8e65-a8978827a768")
 			(effects
 				(font
 					(size 1 1)
@@ -1390,12 +1390,12 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7e81141b-7f94-4575-8609-88e9d8d2662a")
+			(uuid "e5d39e6e-3671-4f92-b1ee-3c0e6a83be9f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1408,7 +1408,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eafa49f7-5964-4a33-8514-2ef59a77a3d7")
+			(uuid "147d279b-ad2b-4f2e-bcdf-847625c17106")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1421,7 +1421,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "abb76775-38fa-4ea6-9906-4244f88be6ea")
+			(uuid "ae01f214-ad08-4244-9a89-b8ce4c791348")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1436,30 +1436,30 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
-			(end 3.2 0)
+			(end 1.9 0)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "37fef347-6b5b-499c-96fe-508ba62e7b03")
+			(uuid "290050c4-f52c-4838-ba98-56cd4235b4a7")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 3.45 0)
+			(end 2.15 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "99c04eb6-7f33-4565-8b54-38ecc48fb76d")
+			(uuid "137b9bce-a864-49ce-aa99-07e38b9a664d")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "432f4e8b-6f2b-4067-aa4d-fbcf90fd627d")
+			(uuid "799d1ce9-4fbe-4c38-8f08-298dd2958118")
 			(effects
 				(font
 					(size 1 1)
@@ -1469,10 +1469,10 @@
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
-			(size 3.2 3.2)
-			(drill 3.2)
+			(size 2.2 2.2)
+			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "699c163f-7a7a-4fe7-b462-c454ed48216a")
+			(uuid "3bfac233-8d22-4d6e-b755-487f464dc401")
 		)
 	)
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
@@ -2710,7 +2710,7 @@
 		(descr "Kailh Choc keyswitch V1 CPG1350 V1 Hotswap Plated Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 Hotswap Plated Cutout Keycap 1.00u")
 		(property "Reference" "K_3"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "0e46324d-4a2e-4862-89d6-37302b33ee9d")
 			(effects
@@ -2721,7 +2721,7 @@
 			)
 		)
 		(property "Value" "KEYSW"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "c2d0df8f-a81f-49ba-8630-8d1344479d53")
 			(effects
@@ -2732,7 +2732,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "21ce8442-241b-4294-b5ee-e791f6b7e383")
@@ -2744,7 +2744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "afa4dce1-cfd2-4e96-9d44-f05f0dd69452")
@@ -2756,7 +2756,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f0464cb7-a480-421a-b59f-43580fa0a7d5")
@@ -3832,7 +3832,7 @@
 			(uuid "90cbb777-8c9f-45de-a099-58f46bf4c7a5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "80756ce1-efdb-4c5b-b569-ff70da5d2b93")
 			(effects
@@ -3938,7 +3938,7 @@
 		(descr "Kailh Choc keyswitch V1 CPG1350 V1 Hotswap Plated Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 Hotswap Plated Cutout Keycap 1.00u")
 		(property "Reference" "K_2"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "bcb498b9-2203-406c-9260-0138a2a20e86")
 			(effects
@@ -3949,7 +3949,7 @@
 			)
 		)
 		(property "Value" "KEYSW"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "ca43788c-02b5-4043-930d-dd44e9ec0f13")
 			(effects
@@ -3960,7 +3960,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3e66846f-8e8e-4a84-816e-a2dc0c0ad5c8")
@@ -3972,7 +3972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a01fedff-12e7-4ca7-b717-439cb9be8400")
@@ -3984,7 +3984,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "10e51b4f-4540-4088-8ef6-f083a7ee3472")
@@ -5060,7 +5060,7 @@
 			(uuid "0b5c43e5-86bb-4c53-aed0-93b8c3619505")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "2892ea4e-9394-4c2a-aab5-ad7d8676e571")
 			(effects
@@ -5159,16 +5159,16 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3"
+	(footprint "MountingHole:MountingHole_2.2mm_M2_DIN965"
 		(layer "F.Cu")
 		(uuid "2874ab5c-fb56-4513-be7b-2a522b6ab62c")
 		(at 140.125 109.625)
-		(descr "Mounting Hole 3.2mm, no annular, M3")
-		(tags "mounting hole 3.2mm no annular m3")
+		(descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
+		(tags "mounting hole 2.2mm no annular m2 din965")
 		(property "Reference" "H3"
-			(at 0 -4.2 0)
+			(at 0 -2.9 0)
 			(layer "F.SilkS")
-			(uuid "072ed1ae-568b-4272-a106-228402f3def1")
+			(uuid "82a81822-5710-4c22-8738-fd18305c9d0e")
 			(effects
 				(font
 					(size 1 1)
@@ -5177,9 +5177,9 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 4.2 0)
+			(at 0 2.9 0)
 			(layer "F.Fab")
-			(uuid "1d5b0061-6099-485f-a206-1f40599ff3de")
+			(uuid "babf43b1-a6c6-4724-8f06-0eb119f0a9b2")
 			(effects
 				(font
 					(size 1 1)
@@ -5187,12 +5187,12 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "20bb0265-aeb6-489b-ac19-75fbb7938e54")
+			(uuid "dede7d7f-64eb-44a1-aab4-b9acb2f365e1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,7 +5205,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "896df804-bc94-4b31-bd8d-f48c1168500e")
+			(uuid "f9f3b439-178c-46a0-9cb9-e4eae9b10671")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5218,7 +5218,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "446a041a-3b45-4874-ba4e-0c5398894895")
+			(uuid "14a6d393-10e4-4776-9cb0-eb2e96bf1b50")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5233,30 +5233,30 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
-			(end 3.2 0)
+			(end 1.9 0)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "695b8253-6942-4767-a226-d4c7910b69bc")
+			(uuid "fdd88180-9018-4329-8c32-0ead810bed34")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 3.45 0)
+			(end 2.15 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "8adf77bc-4ce2-4512-b13d-fc240d1e2711")
+			(uuid "b9cc1cf6-7c19-4741-9c97-f434f0f6c8d7")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "bf715fd7-65a2-4a5a-b42e-90f4adb26f6d")
+			(uuid "12debef2-5a85-4ed2-898b-23e90b74ed68")
 			(effects
 				(font
 					(size 1 1)
@@ -5266,10 +5266,10 @@
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
-			(size 3.2 3.2)
-			(drill 3.2)
+			(size 2.2 2.2)
+			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "ab011737-4b94-45d5-99a3-2314940e774c")
+			(uuid "4cdf0ce9-fd91-4fb7-a60f-8fd648d1aab4")
 		)
 	)
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
@@ -7735,7 +7735,7 @@
 		(descr "Kailh Choc keyswitch V1 CPG1350 V1 Hotswap Plated Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 Hotswap Plated Cutout Keycap 1.00u")
 		(property "Reference" "K_0"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "710d5f56-1fb0-4a01-9050-f6a43fe416f7")
 			(effects
@@ -7746,7 +7746,7 @@
 			)
 		)
 		(property "Value" "KEYSW"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "b2012a11-4aa7-40dc-b3aa-ab83bfab02a2")
 			(effects
@@ -7757,7 +7757,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "caccb378-1cea-49c7-8779-135321ae1c06")
@@ -7769,7 +7769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "280041e2-fbce-4c5f-b7e3-40859e16f7ba")
@@ -7781,7 +7781,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a4e4e3d2-558d-40aa-8119-3712663daa63")
@@ -8857,7 +8857,7 @@
 			(uuid "4ce582a8-a4da-4e1d-b95b-5a53e6802839")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "2ac1eaeb-7af3-4fd2-acde-58b5792f564b")
 			(effects
@@ -17559,7 +17559,7 @@
 		(descr "Kailh Choc keyswitch V1 CPG1350 V1 Hotswap Plated Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 Hotswap Plated Cutout Keycap 1.00u")
 		(property "Reference" "K_1"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "e95501af-e161-4f9d-9598-2233a72bd511")
 			(effects
@@ -17570,7 +17570,7 @@
 			)
 		)
 		(property "Value" "KEYSW"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "d476070c-1a43-4320-a068-62f38dca96a6")
 			(effects
@@ -17581,7 +17581,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "edd8740a-6ff1-4c44-80da-b1a9541f888b")
@@ -17593,7 +17593,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "af3194cd-e646-4d09-9290-72bf5a557043")
@@ -17605,7 +17605,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3d499946-295b-4973-b7b2-e8e19c6bd853")
@@ -18681,7 +18681,7 @@
 			(uuid "786dbaa9-dbe8-4bb7-8697-5418655d1ff9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "b22f94bd-8eb6-4a85-882f-f9a346fd3ca1")
 			(effects
@@ -18787,7 +18787,7 @@
 		(descr "Kailh Choc keyswitch V1 CPG1350 V1 Hotswap Plated Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 Hotswap Plated Cutout Keycap 1.00u")
 		(property "Reference" "K_6"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "9bd844ce-83d5-488c-9a3f-48e47ff257d0")
 			(effects
@@ -18798,7 +18798,7 @@
 			)
 		)
 		(property "Value" "KEYSW"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "c59e1ded-9619-413a-bd6a-6c5212f3287e")
 			(effects
@@ -18809,7 +18809,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "91cbc052-dd74-4b0a-9bdc-558a3ac4a122")
@@ -18821,7 +18821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "43d606aa-d08a-44fd-bcfe-9e016756fcd7")
@@ -18833,7 +18833,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c1094ae6-f717-4c04-865a-5bd6b281dd8f")
@@ -19909,7 +19909,7 @@
 			(uuid "e07db8a8-6394-4727-acf4-072e75a66f4c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "c2f8215f-d5c1-45f9-a046-1faaf344c880")
 			(effects
@@ -23692,16 +23692,16 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3"
+	(footprint "MountingHole:MountingHole_2.2mm_M2_DIN965"
 		(layer "F.Cu")
 		(uuid "8d90d8f5-3fef-44d3-ba44-86a01eb787f7")
 		(at 87.53 88.47)
-		(descr "Mounting Hole 3.2mm, no annular, M3")
-		(tags "mounting hole 3.2mm no annular m3")
+		(descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
+		(tags "mounting hole 2.2mm no annular m2 din965")
 		(property "Reference" "H4"
-			(at 0 -4.2 0)
+			(at 0 -2.9 0)
 			(layer "F.SilkS")
-			(uuid "b0f7dd2a-234f-4810-ab2e-fe4cc51a5f7a")
+			(uuid "773ee2ec-92d7-418f-9046-8d224324c121")
 			(effects
 				(font
 					(size 1 1)
@@ -23710,9 +23710,9 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 4.2 0)
+			(at 0 2.9 0)
 			(layer "F.Fab")
-			(uuid "8fe71eb9-42cc-4169-b744-3a2784dbaf7a")
+			(uuid "4bfe1046-118e-4675-9fe9-54042114554c")
 			(effects
 				(font
 					(size 1 1)
@@ -23720,12 +23720,12 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "518afa8c-7203-46a2-83a9-f108f9f11cfa")
+			(uuid "8e21d777-49e0-4eea-ad7e-9950e6220331")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23738,7 +23738,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c0598d88-66a1-4912-8f7f-6c80385f5033")
+			(uuid "3f9ff6db-0286-43c5-9533-28b192add532")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23751,7 +23751,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cb34fe81-34f9-4813-9e90-3b207e2b04fe")
+			(uuid "b3803011-f469-4c1a-b980-1b0da9c36705")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23766,30 +23766,30 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
-			(end 3.2 0)
+			(end 1.9 0)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "1ac76b2a-a15a-462f-94e8-0e1675da0bb7")
+			(uuid "d7650e9f-04ba-47a3-8145-4f4f0a3ad455")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 3.45 0)
+			(end 2.15 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "5869a68c-f5f5-494e-8d0b-75c1a304902f")
+			(uuid "ef598b1e-8143-4dd6-a114-d6c62f9a70e3")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "ca5fc440-e756-4e9e-bb98-5db696dfbec4")
+			(uuid "426b30d5-1eac-4f4d-b262-26aec33999a4")
 			(effects
 				(font
 					(size 1 1)
@@ -23799,10 +23799,10 @@
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
-			(size 3.2 3.2)
-			(drill 3.2)
+			(size 2.2 2.2)
+			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "0881e12c-f746-40dd-9367-4e6969b43119")
+			(uuid "bc5db5d9-ee13-45a2-9dc1-1e1d54dec7b9")
 		)
 	)
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
@@ -25040,7 +25040,7 @@
 		(descr "Kailh Choc keyswitch V1 CPG1350 V1 Hotswap Plated Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 Hotswap Plated Cutout Keycap 1.00u")
 		(property "Reference" "K_7"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "e47eafbf-5bce-4923-8e7c-5387899485fa")
 			(effects
@@ -25051,7 +25051,7 @@
 			)
 		)
 		(property "Value" "KEYSW"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "86901122-ec0c-49f9-bee9-39dbba3c09b2")
 			(effects
@@ -25062,7 +25062,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "62259b86-2be4-47cb-b1fe-7a993672b915")
@@ -25074,7 +25074,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b1cfaf7d-750c-4788-896e-d2fe44b1f4b2")
@@ -25086,7 +25086,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2b43071b-5b80-4f8e-a457-c5226e0aac84")
@@ -26162,7 +26162,7 @@
 			(uuid "a2a593c7-5ada-4235-9150-ca48b7361e54")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "2f3283f9-d79c-4265-a8be-b3d126aa8999")
 			(effects
@@ -34857,16 +34857,16 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3"
+	(footprint "MountingHole:MountingHole_2.2mm_M2_DIN965"
 		(layer "F.Cu")
 		(uuid "d5825abf-0922-4f24-934b-dadcdd5da8dc")
 		(at 54.625 60.375)
-		(descr "Mounting Hole 3.2mm, no annular, M3")
-		(tags "mounting hole 3.2mm no annular m3")
+		(descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
+		(tags "mounting hole 2.2mm no annular m2 din965")
 		(property "Reference" "H6"
-			(at 0 -4.2 0)
+			(at 0 -2.9 0)
 			(layer "F.SilkS")
-			(uuid "50b51760-2ca8-427a-8c57-a6577a01fdfc")
+			(uuid "e3d3eb8d-053c-4279-b3cf-dba7f9a7fde2")
 			(effects
 				(font
 					(size 1 1)
@@ -34875,9 +34875,9 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 4.2 0)
+			(at 0 2.9 0)
 			(layer "F.Fab")
-			(uuid "7fc5c698-eb60-48fc-8c9d-3873d0e4167e")
+			(uuid "921e1a5d-0a75-4703-9b7e-d7d621839da8")
 			(effects
 				(font
 					(size 1 1)
@@ -34885,12 +34885,12 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d1cd18d6-8db3-41ee-b7f8-dc1b1edbcec4")
+			(uuid "99eb6d5b-ad50-4da4-85f8-1bbcd85c9d4d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34903,7 +34903,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4c53bbbb-309b-48be-9d65-819fff502829")
+			(uuid "2021aa29-ec2a-423c-85b6-e812dfb0e213")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34916,7 +34916,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "68c69f48-a059-4b31-9102-11f73fddc765")
+			(uuid "8915ba97-f79b-47d0-ae44-8115e8c39209")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34931,30 +34931,30 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
-			(end 3.2 0)
+			(end 1.9 0)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "3583c32c-a909-4e9d-aeea-3343df4cc763")
+			(uuid "631b754f-b4f3-4c7b-aa5c-f66921af6e4b")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 3.45 0)
+			(end 2.15 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "c45ee404-a409-4636-b910-0e9da8217ba6")
+			(uuid "5935de9a-6723-467c-b6ac-6d40e5a653b3")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "1dfc0d7c-9b03-4974-a0d9-3851e5e9a2dd")
+			(uuid "3bf27ba2-f144-4322-b3aa-e5765ec58345")
 			(effects
 				(font
 					(size 1 1)
@@ -34964,10 +34964,10 @@
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
-			(size 3.2 3.2)
-			(drill 3.2)
+			(size 2.2 2.2)
+			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "e1310d6d-e091-4b1e-838b-5a3187c25953")
+			(uuid "83c6a74f-0e4b-4a04-920d-a5c2d965a8d7")
 		)
 	)
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
@@ -34977,7 +34977,7 @@
 		(descr "Kailh Choc keyswitch V1 CPG1350 V1 Hotswap Plated Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 Hotswap Plated Cutout Keycap 1.00u")
 		(property "Reference" "K_5"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "a94f5fa9-7b47-49f9-9a9b-cfa212d65e9f")
 			(effects
@@ -34988,7 +34988,7 @@
 			)
 		)
 		(property "Value" "KEYSW"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "3c03b487-c61c-433b-a702-0e23608d96bf")
 			(effects
@@ -34999,7 +34999,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2c3ef079-0ace-46d2-b6de-a5c07958c942")
@@ -35011,7 +35011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e568ff19-08c4-4774-97ee-40f1a70e8e13")
@@ -35023,7 +35023,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c59f6431-a105-4368-967b-4496d3c3fbdf")
@@ -36099,7 +36099,7 @@
 			(uuid "87f8e385-6340-4356-bbc4-4e650ba1bf27")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a53f5b07-e3ae-4d29-9b8d-a24e38d7be55")
 			(effects
@@ -38654,16 +38654,16 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3"
+	(footprint "MountingHole:MountingHole_2.2mm_M2_DIN965"
 		(layer "F.Cu")
 		(uuid "eabce4be-59bf-4e01-9856-06dd46828051")
 		(at 59.625 128.375)
-		(descr "Mounting Hole 3.2mm, no annular, M3")
-		(tags "mounting hole 3.2mm no annular m3")
+		(descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
+		(tags "mounting hole 2.2mm no annular m2 din965")
 		(property "Reference" "H5"
-			(at 0 -4.2 0)
+			(at 0 -2.9 0)
 			(layer "F.SilkS")
-			(uuid "8dcd9730-e68b-4fbd-9b1f-c04685f01482")
+			(uuid "ea37f798-3d8c-485c-87fd-3554372dc69c")
 			(effects
 				(font
 					(size 1 1)
@@ -38672,9 +38672,9 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 4.2 0)
+			(at 0 2.9 0)
 			(layer "F.Fab")
-			(uuid "b3d9a2a3-c0ee-4a4c-9e68-e6e125ea09d9")
+			(uuid "68319ee9-56e2-4b75-8dfb-69d40e50a922")
 			(effects
 				(font
 					(size 1 1)
@@ -38682,12 +38682,12 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4b21cd5c-0a4d-4a72-ba53-bfaf64abe7c9")
+			(uuid "458f14e8-752e-4f36-b78a-c4535530d570")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38700,7 +38700,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "af9b59ff-81f6-47ea-a46e-3cc4d6d0f23c")
+			(uuid "8ac1fac9-4137-4d7b-9ec4-2c94fa4018c6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38713,7 +38713,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4199dbb1-db2c-4d62-a055-0ed3a178f884")
+			(uuid "adf21f73-f4a6-411d-850d-c6e52b41e0a2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38728,30 +38728,30 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
-			(end 3.2 0)
+			(end 1.9 0)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "74237846-fc7c-4a85-b053-56a16eef4130")
+			(uuid "6bb7010f-6e84-44fc-81d0-0b61c2d7823f")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 3.45 0)
+			(end 2.15 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "08f617d5-80b0-4c31-8c2a-f052c84b278c")
+			(uuid "e0a89d59-53bd-4038-9345-6c3cbd534ee4")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "7eef0328-1441-4f2d-86ea-b498545e041d")
+			(uuid "3f8ec648-7feb-41e7-87e6-dadc54d26bd7")
 			(effects
 				(font
 					(size 1 1)
@@ -38761,22 +38761,22 @@
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
-			(size 3.2 3.2)
-			(drill 3.2)
+			(size 2.2 2.2)
+			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "e9b0cd80-3a77-4081-8697-2833adaf9193")
+			(uuid "aaedc852-fa4d-49ac-826f-95740d6b2eeb")
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3"
+	(footprint "MountingHole:MountingHole_2.2mm_M2_DIN965"
 		(layer "F.Cu")
 		(uuid "efba39df-0f9f-4e23-8aaa-400519cb70f6")
-		(at 161.78 72.27)
-		(descr "Mounting Hole 3.2mm, no annular, M3")
-		(tags "mounting hole 3.2mm no annular m3")
+		(at 161.68 71.76)
+		(descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
+		(tags "mounting hole 2.2mm no annular m2 din965")
 		(property "Reference" "H2"
-			(at 0 -4.2 0)
+			(at 0 -2.9 0)
 			(layer "F.SilkS")
-			(uuid "0e7193f4-a42d-4341-8cc3-4dce5cd210e2")
+			(uuid "0086177f-0108-4ffb-9062-e86c714dfaba")
 			(effects
 				(font
 					(size 1 1)
@@ -38785,9 +38785,9 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 4.2 0)
+			(at 0 2.9 0)
 			(layer "F.Fab")
-			(uuid "de7b97fb-6bbb-481f-9643-85365321517e")
+			(uuid "582f84f4-8f58-44c4-9d75-bf4f8fcc62b4")
 			(effects
 				(font
 					(size 1 1)
@@ -38795,12 +38795,12 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a4d9a0fc-4ad4-488a-91b1-aba8ac3fe93b")
+			(uuid "14724e92-9215-461c-bbd4-b0485e17c75f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38813,7 +38813,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c14865b5-13a9-4af1-b951-cd29d7bbcad5")
+			(uuid "719079a4-413a-4b1d-86b3-ab4e2d855b76")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38826,7 +38826,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "81ba9cdb-b7ba-4875-b478-17f473c1d03a")
+			(uuid "f433eb67-5a00-4bb5-98c9-2c3fa28d3436")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38841,30 +38841,30 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
-			(end 3.2 0)
+			(end 1.9 0)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "79960123-90d2-470e-a128-93746fe4a79f")
+			(uuid "a9eb7535-5149-4c20-9946-cb195dd9b5d9")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 3.45 0)
+			(end 2.15 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "f3cf1c3c-b3bb-440a-8f40-20089599213a")
+			(uuid "10bd5fd7-90d3-4cbd-8efa-2b9f77e51fc7")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "9b791bfe-95a8-40da-b1e6-bde2b3bb8dac")
+			(uuid "f2fd281c-b8cb-467a-9ef6-4441130e7a3c")
 			(effects
 				(font
 					(size 1 1)
@@ -38874,10 +38874,10 @@
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
-			(size 3.2 3.2)
-			(drill 3.2)
+			(size 2.2 2.2)
+			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "cae3f28e-aed5-4316-8af9-797ad8ceaac0")
+			(uuid "f6c69a94-a777-424b-95ab-e1bec60e59fe")
 		)
 	)
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
@@ -41343,7 +41343,7 @@
 		(descr "Kailh Choc keyswitch V1 CPG1350 V1 Hotswap Plated Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 Hotswap Plated Cutout Keycap 1.00u")
 		(property "Reference" "K_4"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "94768b74-85e9-4af3-98d4-09e0ce92e9a6")
 			(effects
@@ -41354,7 +41354,7 @@
 			)
 		)
 		(property "Value" "KEYSW"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "589845d2-583a-40a0-9537-fbe76fd568e8")
 			(effects
@@ -41365,7 +41365,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "48099be9-98b1-4040-b864-475cc149e6e8")
@@ -41377,7 +41377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "139de625-a40b-4517-be6f-5068ce695f96")
@@ -41389,7 +41389,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1e192d15-f1d4-47ce-889e-1f79212b59e9")
@@ -42465,7 +42465,7 @@
 			(uuid "237bdcac-cb0d-4f40-b9ca-51de7dff44a9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "ee426f00-3049-486d-a41f-1d86ab4da26d")
 			(effects
@@ -56052,41 +56052,45 @@
 		)
 	)
 	(gr_arc
-		(start 181.375 71.75)
-		(mid 181.960786 70.335786)
-		(end 183.375 69.75)
+		(start 186.28 131.27)
+		(mid 186.865786 129.855786)
+		(end 188.28 129.27)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "076b62fc-83e9-4df9-9e02-9e015a2add3f")
+		(uuid "089bdbba-9579-482d-80e2-6ddb40b68ac4")
 	)
 	(gr_arc
-		(start 193.625 110.75)
-		(mid 195.039214 111.335786)
-		(end 195.625 112.75)
+		(start 188.78 51.27)
+		(mid 190.194214 51.855786)
+		(end 190.78 53.27)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "20339b11-0e73-41eb-82d7-6f1bdd5f8033")
+		(uuid "1a9f5647-ad87-4422-b4e7-36515f82a194")
 	)
 	(gr_arc
-		(start 184.125 91.75)
-		(mid 185.539214 92.335786)
-		(end 186.125 93.75)
+		(start 184.28 89.27)
+		(mid 185.694214 89.855786)
+		(end 186.28 91.27)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "28679b44-541b-46a6-9914-040a61679ae9")
+		(uuid "1f2d7820-dffd-448f-9da0-8fd750152c91")
 	)
 	(gr_line
-		(start 186.125 128.75)
-		(end 186.125 143.75)
+		(start 186.28 131.27)
+		(end 186.28 146.27)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -56095,41 +56099,21 @@
 		(uuid "35f494aa-5cf4-40be-93bf-5fb4a26bc124")
 	)
 	(gr_arc
-		(start 34.375 145.75)
-		(mid 32.960786 145.164214)
-		(end 32.375 143.75)
+		(start 188.28 108.27)
+		(mid 186.865786 107.684214)
+		(end 186.28 106.27)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "3935f3a2-f0a2-47e8-b2bb-8ad5effa849a")
-	)
-	(gr_arc
-		(start 188.125 110.75)
-		(mid 186.710786 110.164214)
-		(end 186.125 108.75)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "3b624f05-b943-4c81-8d74-2801fe83a504")
-	)
-	(gr_arc
-		(start 190.875 67.75)
-		(mid 190.289214 69.164214)
-		(end 188.875 69.75)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "53d48e9e-be65-427b-8e77-71cd97ae42c7")
+		(uuid "3c2b382e-50be-48cf-ad62-6e1735adfabe")
 	)
 	(gr_line
-		(start 183.375 91.75)
-		(end 184.125 91.75)
+		(start 183.78 89.27)
+		(end 184.28 89.27)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -56138,8 +56122,9 @@
 		(uuid "57fbd602-62dd-40c8-8ca3-d6e15453ae44")
 	)
 	(gr_line
-		(start 188.125 110.75)
-		(end 193.625 110.75)
+		(start 188.28 108.27)
+		(end 193.28 108.27)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -56148,19 +56133,45 @@
 		(uuid "5ce48b13-4c29-4fce-b575-20b298057263")
 	)
 	(gr_arc
-		(start 195.625 124.75)
-		(mid 195.039214 126.164214)
-		(end 193.625 126.75)
+		(start 193.28 108.27)
+		(mid 194.694214 108.855786)
+		(end 195.28 110.27)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "6f055852-d177-48a3-bc97-411c45d2cd8e")
+		(uuid "61c6278a-fc2a-4437-97a7-b374699beed5")
+	)
+	(gr_arc
+		(start 195.28 127.27)
+		(mid 194.694214 128.684214)
+		(end 193.28 129.27)
+		(locked yes)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6488e08f-632e-4125-b4ff-8ab4d6796b9c")
+	)
+	(gr_arc
+		(start 30.8 53.27)
+		(mid 31.385786 51.855786)
+		(end 32.8 51.27)
+		(locked yes)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6b1e56d5-445d-403c-b0d7-b4346542bbd9")
 	)
 	(gr_line
-		(start 190.875 55.75)
-		(end 190.875 67.75)
+		(start 190.78 53.27)
+		(end 190.78 70.27)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -56169,19 +56180,33 @@
 		(uuid "76d802f7-3613-488f-9667-533b1a811ccb")
 	)
 	(gr_arc
-		(start 188.875 53.75)
-		(mid 190.289214 54.335786)
-		(end 190.875 55.75)
+		(start 181.78 74.27)
+		(mid 182.365786 72.855786)
+		(end 183.78 72.27)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "871ef3a5-6eb0-466a-beaa-217c6a04fc22")
+		(uuid "7c94a54c-924e-4982-8e8f-da11520bc0d2")
+	)
+	(gr_arc
+		(start 32.8 148.27)
+		(mid 31.385786 147.684214)
+		(end 30.8 146.27)
+		(locked yes)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "98c7a3af-0de8-49ce-9c88-987f9f9b8ead")
 	)
 	(gr_line
-		(start 34.375 53.75)
-		(end 188.875 53.75)
+		(start 188.78 51.27)
+		(end 32.8 51.27)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -56190,8 +56215,9 @@
 		(uuid "9d3971f7-2746-4ba5-b2c3-3915aee46bcc")
 	)
 	(gr_line
-		(start 32.375 55.75)
-		(end 32.375 143.75)
+		(start 30.8 146.27)
+		(end 30.8 53.27)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -56200,8 +56226,9 @@
 		(uuid "a52d1fd6-0616-4a74-940d-5ce58ada03a7")
 	)
 	(gr_line
-		(start 188.875 69.75)
-		(end 183.375 69.75)
+		(start 188.78 72.27)
+		(end 183.78 72.27)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -56210,19 +56237,21 @@
 		(uuid "ae59d929-6654-4254-a39a-5ad5922ff411")
 	)
 	(gr_arc
-		(start 183.375 91.75)
-		(mid 181.960786 91.164214)
-		(end 181.375 89.75)
+		(start 186.28 146.27)
+		(mid 185.694214 147.684214)
+		(end 184.28 148.27)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "b3b500c1-aa45-4de6-abe4-a81bf5f0bffa")
+		(uuid "b4383324-86c9-4be4-b7fd-f28078764bcf")
 	)
 	(gr_line
-		(start 186.125 93.75)
-		(end 186.125 108.75)
+		(start 186.28 91.27)
+		(end 186.28 106.27)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -56231,19 +56260,21 @@
 		(uuid "bb58f4b2-e426-47b1-98e2-ba0b9da61584")
 	)
 	(gr_arc
-		(start 186.125 143.75)
-		(mid 185.539214 145.164214)
-		(end 184.125 145.75)
+		(start 190.78 70.27)
+		(mid 190.194214 71.684214)
+		(end 188.78 72.27)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "ce22e5a2-c3b3-47ec-b573-04394e2fcfd7")
+		(uuid "bfb8a8a3-11b0-4dc6-ab99-c0aef4e272e9")
 	)
 	(gr_line
-		(start 195.625 112.75)
-		(end 195.625 124.75)
+		(start 195.28 110.27)
+		(end 195.28 127.27)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -56252,8 +56283,9 @@
 		(uuid "ce459b55-f84f-4f3e-9795-90a4385aa9b8")
 	)
 	(gr_line
-		(start 184.125 145.75)
-		(end 34.375 145.75)
+		(start 184.28 148.27)
+		(end 32.8 148.27)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -56262,19 +56294,21 @@
 		(uuid "d303923c-6716-4474-a59a-16141f0e54c1")
 	)
 	(gr_arc
-		(start 186.125 128.75)
-		(mid 186.710786 127.335786)
-		(end 188.125 126.75)
+		(start 183.78 89.27)
+		(mid 182.365786 88.684214)
+		(end 181.78 87.27)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "e22d1362-806c-473d-8552-7b544755c91c")
+		(uuid "dcc9cfa3-9b8a-4a80-a76b-47ea524fc9b5")
 	)
 	(gr_line
-		(start 193.625 126.75)
-		(end 188.125 126.75)
+		(start 193.28 129.27)
+		(end 188.28 129.27)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -56283,25 +56317,15 @@
 		(uuid "eb9eb5aa-caf7-4917-8f1d-4bd2b6495ccd")
 	)
 	(gr_line
-		(start 181.375 71.75)
-		(end 181.375 89.75)
+		(start 181.78 74.27)
+		(end 181.78 87.27)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "f24fe16f-4d9b-43e2-a87e-b5646b7bea1f")
-	)
-	(gr_arc
-		(start 32.375 55.75)
-		(mid 32.960786 54.335786)
-		(end 34.375 53.75)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "ff949068-c6c0-4f7f-809b-100783ff51bc")
 	)
 	(gr_text "MH69-L V0"
 		(at 41.8 139 0)
@@ -56328,13 +56352,6 @@
 			"3721eb95-ce3d-4716-a82e-2bc15735483e" "60130291-879d-4520-98c5-1873b56e9000"
 			"6039514e-b1b5-4cf2-8f30-1bcfd00eee32" "a878052d-aa68-4308-973a-08e99ab8aa81"
 			"dbb963c2-d5db-4207-9d06-4ba7fb5d368d" "fb78845a-163d-481b-bf4b-ebb428bf2714"
-		)
-	)
-	(group ""
-		(uuid "a888fc8a-7a0f-41ee-be00-dede9ccfb4a0")
-		(members "189489e0-2f8b-4423-87e4-dd101edf0a7c" "3e9562d4-eca3-4b48-a72a-46c39d065987"
-			"6f5c56cd-015e-454d-b7ed-1faac7ddba82" "7adcb298-4fba-4429-afe4-3d1328414ed1"
-			"c9020ef5-4a47-4e96-8d8b-03e0fbdf3b50" "d4d0ce3a-25e9-4d1e-ad2e-73b81f86113d"
 		)
 	)
 	(group ""
