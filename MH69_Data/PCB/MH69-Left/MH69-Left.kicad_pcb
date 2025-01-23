@@ -1362,16 +1362,17 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2_DIN965"
+	(footprint "ScottoKeebs_Scotto:Standoff_M2x6mm"
 		(layer "F.Cu")
 		(uuid "06426473-2e10-4508-944a-5ab1cba517d5")
-		(at 164.02 130.02)
-		(descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
-		(tags "mounting hole 2.2mm no annular m2 din965")
+		(at 164.08 143.12)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
 		(property "Reference" "H1"
-			(at 0 -2.9 0)
+			(at 0 -3.2 0)
 			(layer "F.SilkS")
-			(uuid "934fa43c-2a64-434d-8660-1fe4e3428987")
+			(hide yes)
+			(uuid "a6566f6d-26a1-4a2f-9dc7-df79e47d784e")
 			(effects
 				(font
 					(size 1 1)
@@ -1380,9 +1381,10 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 2.9 0)
+			(at 0 3.2 0)
 			(layer "F.Fab")
-			(uuid "060b5d4d-69ee-4c25-8e65-a8978827a768")
+			(hide yes)
+			(uuid "36dc18b7-fd2b-4a00-a56f-c7b34dcfcaa8")
 			(effects
 				(font
 					(size 1 1)
@@ -1390,12 +1392,12 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+		(property "Footprint" "ScottoKeebs_Scotto:Standoff_M2x6mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e5d39e6e-3671-4f92-b1ee-3c0e6a83be9f")
+			(uuid "236fc632-7a6c-4802-a3be-896d999a81c7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1408,7 +1410,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "147d279b-ad2b-4f2e-bcdf-847625c17106")
+			(uuid "4addf4bb-24e1-429a-97f1-1d88f35d4437")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1421,7 +1423,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ae01f214-ad08-4244-9a89-b8ce4c791348")
+			(uuid "f91204d2-c718-497a-86b5-2d2d0e36df00")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1436,25 +1438,14 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
-			(end 1.9 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "290050c4-f52c-4838-ba98-56cd4235b4a7")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 2.15 0)
+			(end 1.6 0)
 			(stroke
 				(width 0.05)
-				(type solid)
+				(type default)
 			)
 			(fill none)
-			(layer "F.CrtYd")
-			(uuid "137b9bce-a864-49ce-aa99-07e38b9a664d")
+			(layer "B.CrtYd")
+			(uuid "24c65634-cc99-4ddb-995f-d362428e2a52")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -1472,7 +1463,18 @@
 			(size 2.2 2.2)
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "3bfac233-8d22-4d6e-b755-487f464dc401")
+			(uuid "1c840724-372d-41d7-8575-a58a359d6a5b")
+		)
+		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Scotto.3dshapes/Standoff.step"
+			(offset
+				(xyz 0 0 -7.6)
+			)
+			(scale
+				(xyz 1 1 6)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
@@ -5157,119 +5159,6 @@
 			(rotate
 				(xyz 0 0 0)
 			)
-		)
-	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2_DIN965"
-		(layer "F.Cu")
-		(uuid "2874ab5c-fb56-4513-be7b-2a522b6ab62c")
-		(at 140.125 109.625)
-		(descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
-		(tags "mounting hole 2.2mm no annular m2 din965")
-		(property "Reference" "H3"
-			(at 0 -2.9 0)
-			(layer "F.SilkS")
-			(uuid "82a81822-5710-4c22-8738-fd18305c9d0e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 0 2.9 0)
-			(layer "F.Fab")
-			(uuid "babf43b1-a6c6-4724-8f06-0eb119f0a9b2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dede7d7f-64eb-44a1-aab4-b9acb2f365e1")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f9f3b439-178c-46a0-9cb9-e4eae9b10671")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "14a6d393-10e4-4776-9cb0-eb2e96bf1b50")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/ba7820c9-0f38-43b0-8f0e-2e1bdc0432a0")
-		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 1.9 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "fdd88180-9018-4329-8c32-0ead810bed34")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 2.15 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "b9cc1cf6-7c19-4741-9c97-f434f0f6c8d7")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "12debef2-5a85-4ed2-898b-23e90b74ed68")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 2.2 2.2)
-			(drill 2.2)
-			(layers "*.Cu" "*.Mask")
-			(uuid "4cdf0ce9-fd91-4fb7-a60f-8fd648d1aab4")
 		)
 	)
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
@@ -23692,16 +23581,17 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2_DIN965"
+	(footprint "ScottoKeebs_Scotto:Standoff_M2x6mm"
 		(layer "F.Cu")
 		(uuid "8d90d8f5-3fef-44d3-ba44-86a01eb787f7")
-		(at 87.53 88.47)
-		(descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
-		(tags "mounting hole 2.2mm no annular m2 din965")
+		(at 92.25 100)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
 		(property "Reference" "H4"
-			(at 0 -2.9 0)
+			(at 0 -3.2 0)
 			(layer "F.SilkS")
-			(uuid "773ee2ec-92d7-418f-9046-8d224324c121")
+			(hide yes)
+			(uuid "e23e3be4-4e08-46e4-a25b-6695ced3d1f8")
 			(effects
 				(font
 					(size 1 1)
@@ -23710,9 +23600,10 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 2.9 0)
+			(at 0 3.2 0)
 			(layer "F.Fab")
-			(uuid "4bfe1046-118e-4675-9fe9-54042114554c")
+			(hide yes)
+			(uuid "9e941771-eb91-4518-a8c6-b3a76d715976")
 			(effects
 				(font
 					(size 1 1)
@@ -23720,12 +23611,12 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+		(property "Footprint" "ScottoKeebs_Scotto:Standoff_M2x6mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8e21d777-49e0-4eea-ad7e-9950e6220331")
+			(uuid "ecd7993e-8dc6-4c3a-ac9c-155f0211e58b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23738,7 +23629,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3f9ff6db-0286-43c5-9533-28b192add532")
+			(uuid "dac0fe9d-01b6-4b22-9752-e71e2ad854cf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23751,7 +23642,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b3803011-f469-4c1a-b980-1b0da9c36705")
+			(uuid "6128c396-8d9e-4c75-86ab-fa645105c65b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23766,25 +23657,14 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
-			(end 1.9 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "d7650e9f-04ba-47a3-8145-4f4f0a3ad455")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 2.15 0)
+			(end 1.6 0)
 			(stroke
 				(width 0.05)
-				(type solid)
+				(type default)
 			)
 			(fill none)
-			(layer "F.CrtYd")
-			(uuid "ef598b1e-8143-4dd6-a114-d6c62f9a70e3")
+			(layer "B.CrtYd")
+			(uuid "bd9f3c75-5480-4e47-b490-6d036d04bf88")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -23802,7 +23682,18 @@
 			(size 2.2 2.2)
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "bc5db5d9-ee13-45a2-9dc1-1e1d54dec7b9")
+			(uuid "76a7f4ad-6026-4c8b-98f8-8fdb1f05953d")
+		)
+		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Scotto.3dshapes/Standoff.step"
+			(offset
+				(xyz 0 0 -7.6)
+			)
+			(scale
+				(xyz 1 1 6)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
@@ -34857,16 +34748,17 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2_DIN965"
+	(footprint "ScottoKeebs_Scotto:Standoff_M2x6mm"
 		(layer "F.Cu")
 		(uuid "d5825abf-0922-4f24-934b-dadcdd5da8dc")
-		(at 54.625 60.375)
-		(descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
-		(tags "mounting hole 2.2mm no annular m2 din965")
+		(at 56.6 54.63)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
 		(property "Reference" "H6"
-			(at 0 -2.9 0)
+			(at 0 -3.2 0)
 			(layer "F.SilkS")
-			(uuid "e3d3eb8d-053c-4279-b3cf-dba7f9a7fde2")
+			(hide yes)
+			(uuid "b3e3cf23-450f-4080-b09d-3ad3767515bb")
 			(effects
 				(font
 					(size 1 1)
@@ -34875,9 +34767,10 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 2.9 0)
+			(at 0 3.2 0)
 			(layer "F.Fab")
-			(uuid "921e1a5d-0a75-4703-9b7e-d7d621839da8")
+			(hide yes)
+			(uuid "7c77ddd0-9d87-4ca9-b36e-bfe5219bc692")
 			(effects
 				(font
 					(size 1 1)
@@ -34885,12 +34778,12 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+		(property "Footprint" "ScottoKeebs_Scotto:Standoff_M2x6mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "99eb6d5b-ad50-4da4-85f8-1bbcd85c9d4d")
+			(uuid "193e5c58-1845-4911-942e-06ca9eddba81")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34903,7 +34796,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2021aa29-ec2a-423c-85b6-e812dfb0e213")
+			(uuid "8c70b4f0-40aa-45d3-86ba-c0b194458de2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34916,7 +34809,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8915ba97-f79b-47d0-ae44-8115e8c39209")
+			(uuid "c20f88e8-f2eb-4ebc-8f91-3df9e9320549")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34931,25 +34824,14 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
-			(end 1.9 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "631b754f-b4f3-4c7b-aa5c-f66921af6e4b")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 2.15 0)
+			(end 1.6 0)
 			(stroke
 				(width 0.05)
-				(type solid)
+				(type default)
 			)
 			(fill none)
-			(layer "F.CrtYd")
-			(uuid "5935de9a-6723-467c-b6ac-6d40e5a653b3")
+			(layer "B.CrtYd")
+			(uuid "40e28813-652f-48d8-98c9-549a44d6ea0d")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -34967,7 +34849,18 @@
 			(size 2.2 2.2)
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "83c6a74f-0e4b-4a04-920d-a5c2d965a8d7")
+			(uuid "63fe2758-e7ec-4ecf-817a-eff08950a354")
+		)
+		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Scotto.3dshapes/Standoff.step"
+			(offset
+				(xyz 0 0 -7.6)
+			)
+			(scale
+				(xyz 1 1 6)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
@@ -38654,16 +38547,17 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2_DIN965"
+	(footprint "ScottoKeebs_Scotto:Standoff_M2x6mm"
 		(layer "F.Cu")
 		(uuid "eabce4be-59bf-4e01-9856-06dd46828051")
-		(at 59.625 128.375)
-		(descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
-		(tags "mounting hole 2.2mm no annular m2 din965")
+		(at 56.6 144.26)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
 		(property "Reference" "H5"
-			(at 0 -2.9 0)
+			(at 0 -3.2 0)
 			(layer "F.SilkS")
-			(uuid "ea37f798-3d8c-485c-87fd-3554372dc69c")
+			(hide yes)
+			(uuid "f5b4af78-c2a7-4e39-800d-324f9609afed")
 			(effects
 				(font
 					(size 1 1)
@@ -38672,9 +38566,10 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 2.9 0)
+			(at 0 3.2 0)
 			(layer "F.Fab")
-			(uuid "68319ee9-56e2-4b75-8dfb-69d40e50a922")
+			(hide yes)
+			(uuid "19291d65-439c-46a6-b368-2db726be5702")
 			(effects
 				(font
 					(size 1 1)
@@ -38682,12 +38577,12 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+		(property "Footprint" "ScottoKeebs_Scotto:Standoff_M2x6mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "458f14e8-752e-4f36-b78a-c4535530d570")
+			(uuid "96b52c24-f7b6-4dd9-be2d-09fb115d7bda")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38700,7 +38595,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8ac1fac9-4137-4d7b-9ec4-2c94fa4018c6")
+			(uuid "c3396ebc-8e1e-40e7-a7d0-b04254c17c53")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38713,7 +38608,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "adf21f73-f4a6-411d-850d-c6e52b41e0a2")
+			(uuid "9b86f967-3918-4ddd-8b1f-de0c6c86f810")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38728,25 +38623,14 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
-			(end 1.9 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "6bb7010f-6e84-44fc-81d0-0b61c2d7823f")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 2.15 0)
+			(end 1.6 0)
 			(stroke
 				(width 0.05)
-				(type solid)
+				(type default)
 			)
 			(fill none)
-			(layer "F.CrtYd")
-			(uuid "e0a89d59-53bd-4038-9345-6c3cbd534ee4")
+			(layer "B.CrtYd")
+			(uuid "695fe5a2-9650-498b-beef-7eb2ea1a6067")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -38764,19 +38648,31 @@
 			(size 2.2 2.2)
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "aaedc852-fa4d-49ac-826f-95740d6b2eeb")
+			(uuid "98e93575-bba8-4fba-82e8-f3b669d367fe")
+		)
+		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Scotto.3dshapes/Standoff.step"
+			(offset
+				(xyz 0 0 -7.6)
+			)
+			(scale
+				(xyz 1 1 6)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2_DIN965"
+	(footprint "ScottoKeebs_Scotto:Standoff_M2x6mm"
 		(layer "F.Cu")
 		(uuid "efba39df-0f9f-4e23-8aaa-400519cb70f6")
 		(at 161.68 71.76)
-		(descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
-		(tags "mounting hole 2.2mm no annular m2 din965")
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
 		(property "Reference" "H2"
-			(at 0 -2.9 0)
+			(at 0 -3.2 0)
 			(layer "F.SilkS")
-			(uuid "0086177f-0108-4ffb-9062-e86c714dfaba")
+			(hide yes)
+			(uuid "42b6183c-f2cc-449e-940b-0c6dff4deca3")
 			(effects
 				(font
 					(size 1 1)
@@ -38785,9 +38681,10 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 2.9 0)
+			(at 0 3.2 0)
 			(layer "F.Fab")
-			(uuid "582f84f4-8f58-44c4-9d75-bf4f8fcc62b4")
+			(hide yes)
+			(uuid "716cef14-16b3-4c71-8500-2ff0ebe5b2c3")
 			(effects
 				(font
 					(size 1 1)
@@ -38795,12 +38692,12 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+		(property "Footprint" "ScottoKeebs_Scotto:Standoff_M2x6mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "14724e92-9215-461c-bbd4-b0485e17c75f")
+			(uuid "f9151523-2547-4953-98c0-33421c8bb46c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38813,7 +38710,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "719079a4-413a-4b1d-86b3-ab4e2d855b76")
+			(uuid "1a1abc82-53b2-47d8-8277-d95a110113cd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38826,7 +38723,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f433eb67-5a00-4bb5-98c9-2c3fa28d3436")
+			(uuid "a17cab0e-cb36-4784-b1db-f1a69ec50845")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38841,25 +38738,14 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
-			(end 1.9 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "a9eb7535-5149-4c20-9946-cb195dd9b5d9")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 2.15 0)
+			(end 1.6 0)
 			(stroke
 				(width 0.05)
-				(type solid)
+				(type default)
 			)
 			(fill none)
-			(layer "F.CrtYd")
-			(uuid "10bd5fd7-90d3-4cbd-8efa-2b9f77e51fc7")
+			(layer "B.CrtYd")
+			(uuid "de72deea-cfa2-4e7d-910e-82d49f55783b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -38877,7 +38763,18 @@
 			(size 2.2 2.2)
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "f6c69a94-a777-424b-95ab-e1bec60e59fe")
+			(uuid "a628659c-77ce-4063-ade9-f6a1d4bdce13")
+		)
+		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Scotto.3dshapes/Standoff.step"
+			(offset
+				(xyz 0 0 -7.6)
+			)
+			(scale
+				(xyz 1 1 6)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
@@ -47456,7 +47353,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "1eb06882-80c8-47b7-a398-3e77ceeab114")
-		(at 162.625 142.625 90)
+		(at 155.94 141.93 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D_32"
@@ -53129,7 +53026,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "a5586315-c236-4fa6-b950-df5fe5e685e1")
-		(at 167.125 142.745 90)
+		(at 178.35 142.34 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D_33"
