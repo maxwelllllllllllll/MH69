@@ -58,7 +58,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|23370000|98530000|a52d1fd6-0616-4a74-940d-5ce58ada03a7|2d0ceb54-9e80-4fa4-91ea-107a3d9383f1"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
