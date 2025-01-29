@@ -1163,12 +1163,6 @@
 		)
 	)
 	(junction
-		(at 217.17 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0401e61d-1ab9-4c47-905a-70e4254031fe")
-	)
-	(junction
 		(at 96.52 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1179,12 +1173,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "126c7fed-b026-489d-a5ab-4bc41c3ab2e7")
-	)
-	(junction
-		(at 110.49 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13c214c7-c2f5-4e4a-b306-173786d7e71a")
 	)
 	(junction
 		(at 71.12 100.33)
@@ -1223,12 +1211,6 @@
 		(uuid "23725da3-729d-4994-af7d-8103b15c2922")
 	)
 	(junction
-		(at 67.31 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2456f24d-b9bb-45f3-9499-5781c5d13c19")
-	)
-	(junction
 		(at 186.69 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1239,12 +1221,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2aa0e816-8055-4bab-aacb-ef8142e6345a")
-	)
-	(junction
-		(at 198.12 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c686f29-4c53-4553-9862-484f221744f7")
 	)
 	(junction
 		(at 147.32 100.33)
@@ -1307,12 +1283,6 @@
 		(uuid "4e21be03-2130-4da1-9fe4-7f744396859b")
 	)
 	(junction
-		(at 217.17 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e3c925e-81af-4e6d-9254-c0214f178a66")
-	)
-	(junction
 		(at 147.32 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1337,28 +1307,10 @@
 		(uuid "5f78f159-0d24-4f13-a190-3fd48d9031e2")
 	)
 	(junction
-		(at 115.57 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69f6c750-bc3b-45e1-8dfa-87d894631a87")
-	)
-	(junction
 		(at 186.69 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e11f0cb-5c58-4118-9110-37a50a085b9c")
-	)
-	(junction
-		(at 212.09 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e1ff834-786d-4d0b-8096-9f8aa278ee31")
-	)
-	(junction
-		(at 212.09 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "724e040e-db7c-4c79-9ada-14841d5fec7a")
 	)
 	(junction
 		(at 121.92 24.13)
@@ -1377,12 +1329,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "848a9079-3cf5-40ba-b4de-45f40246ab63")
-	)
-	(junction
-		(at 212.09 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "867b6973-58c3-42fe-9444-b1aa4363dd6c")
 	)
 	(junction
 		(at 147.32 74.93)
@@ -1439,12 +1385,6 @@
 		(uuid "ad2e5927-f092-4821-9a8e-c4f9481941d2")
 	)
 	(junction
-		(at 140.97 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae8029c0-5676-411d-afb1-b5ea81262939")
-	)
-	(junction
 		(at 96.52 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1463,34 +1403,10 @@
 		(uuid "b17bda5c-0699-423f-9871-9c04f94e3393")
 	)
 	(junction
-		(at 59.69 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2cfdebf-ebee-469a-ae4e-83d138d4ed17")
-	)
-	(junction
 		(at 85.09 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3d17e6b-d5ac-4f70-a6b0-5c1a6bc2267d")
-	)
-	(junction
-		(at 212.09 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb1d223a-8b28-4942-93b2-a856c28463af")
-	)
-	(junction
-		(at 198.12 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb65df1b-b483-4e7d-9779-f3c50e83d296")
-	)
-	(junction
-		(at 135.89 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7f3aec7-5e69-4747-adc0-faa74a8ad94a")
 	)
 	(junction
 		(at 110.49 60.96)
@@ -1521,12 +1437,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d59a92de-d2bd-4f36-a790-53b25c9af5e0")
-	)
-	(junction
-		(at 217.17 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de1f866e-2e30-470f-a702-a0163972bbe8")
 	)
 	(junction
 		(at 161.29 111.76)
@@ -1689,26 +1599,6 @@
 			(type default)
 		)
 		(uuid "0f3aaf51-d126-4c13-b12e-82d41542f9c4")
-	)
-	(wire
-		(pts
-			(xy 132.08 125.73) (xy 140.97 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1093b95c-7f07-484e-8d4a-bf8d04c74577")
-	)
-	(wire
-		(pts
-			(xy 64.77 125.73) (xy 67.31 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11709a7b-de24-49d9-a4f6-45750bef8f6f")
 	)
 	(wire
 		(pts
@@ -1912,16 +1802,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 130.81) (xy 110.49 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "302b23c0-5dfb-4ad0-be83-ea18d045aa71")
-	)
-	(wire
-		(pts
 			(xy 90.17 74.93) (xy 96.52 74.93)
 		)
 		(stroke
@@ -1999,16 +1879,6 @@
 			(type default)
 		)
 		(uuid "39d8b1e0-74a5-4f9f-94fe-03db277e3b30")
-	)
-	(wire
-		(pts
-			(xy 105.41 125.73) (xy 115.57 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a502e3c-c0ff-4898-9c22-cef62a20ae6f")
 	)
 	(wire
 		(pts
@@ -2109,16 +1979,6 @@
 			(type default)
 		)
 		(uuid "4664380b-7c79-403f-ad70-68f472a2597a")
-	)
-	(wire
-		(pts
-			(xy 67.31 116.84) (xy 54.61 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "487687db-f5c0-4cff-aa93-3fa412b1dfcd")
 	)
 	(wire
 		(pts
@@ -2302,26 +2162,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 29.21) (xy 212.09 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c52992d-c0b2-4f93-a494-f985765da5e8")
-	)
-	(wire
-		(pts
-			(xy 49.53 130.81) (xy 59.69 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d8909d9-34a5-4417-9b13-7c97ec0beae9")
-	)
-	(wire
-		(pts
 			(xy 135.89 29.21) (xy 135.89 30.48)
 		)
 		(stroke
@@ -2442,16 +2282,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 24.13) (xy 217.17 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69680ffb-b6a3-43a3-84d3-e9a1ee58c0d9")
-	)
-	(wire
-		(pts
 			(xy 115.57 100.33) (xy 121.92 100.33)
 		)
 		(stroke
@@ -2482,16 +2312,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 80.01) (xy 212.09 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "752a9a1a-a788-4bd6-a776-1e21c4a4fb92")
-	)
-	(wire
-		(pts
 			(xy 331.47 72.39) (xy 299.72 72.39)
 		)
 		(stroke
@@ -2499,16 +2319,6 @@
 			(type default)
 		)
 		(uuid "7626e777-3b0e-4b9c-8f56-a2e33a6e2abf")
-	)
-	(wire
-		(pts
-			(xy 127 130.81) (xy 135.89 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76cedde8-28e4-4742-91be-c9e73594b76d")
 	)
 	(wire
 		(pts
@@ -2782,36 +2592,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 116.84) (xy 54.61 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9da34fbd-062e-4479-bce2-b565885776e9")
-	)
-	(wire
-		(pts
-			(xy 203.2 54.61) (xy 212.09 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dd6f834-29c7-420c-ad07-6908824a6a48")
-	)
-	(wire
-		(pts
-			(xy 204.47 105.41) (xy 212.09 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e21d0fa-2546-4907-b430-bfa7afbcc56d")
-	)
-	(wire
-		(pts
 			(xy 212.09 105.41) (xy 212.09 106.68)
 		)
 		(stroke
@@ -2922,16 +2702,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 125.73) (xy 67.31 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa508c00-d3b1-4b1c-b484-33626d99849a")
-	)
-	(wire
-		(pts
 			(xy 22.86 111.76) (xy 59.69 111.76)
 		)
 		(stroke
@@ -2982,23 +2752,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 125.73) (xy 71.12 125.73)
+			(xy 64.77 125.73) (xy 71.12 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b35588c3-cbc9-4403-8723-c854264dbb64")
-	)
-	(wire
-		(pts
-			(xy 198.12 100.33) (xy 198.12 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b46e96e2-8739-4fa1-9cbe-c1c3a78191fe")
 	)
 	(wire
 		(pts
@@ -3222,16 +2982,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 49.53) (xy 217.17 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d574f738-2583-4709-a473-318be5c9620b")
-	)
-	(wire
-		(pts
 			(xy 135.89 111.76) (xy 161.29 111.76)
 		)
 		(stroke
@@ -3399,16 +3149,6 @@
 			(type default)
 		)
 		(uuid "f522ab1e-37c8-4afe-842c-58ef043c4f90")
-	)
-	(wire
-		(pts
-			(xy 208.28 74.93) (xy 217.17 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5eb54b3-b753-4cb5-a054-1109f741755d")
 	)
 	(wire
 		(pts
@@ -4006,7 +3746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 60.96 25.4 0)
 			(effects
 				(font
@@ -4142,7 +3882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 86.36 25.4 0)
 			(effects
 				(font
@@ -4278,7 +4018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 111.76 25.4 0)
 			(effects
 				(font
@@ -4414,7 +4154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 137.16 25.4 0)
 			(effects
 				(font
@@ -4550,7 +4290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 162.56 25.4 0)
 			(effects
 				(font
@@ -4686,7 +4426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 187.96 25.4 0)
 			(effects
 				(font
@@ -4822,7 +4562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1.5u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.50u"
 			(at 213.36 25.4 0)
 			(effects
 				(font
@@ -4958,7 +4698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 35.56 50.8 0)
 			(effects
 				(font
@@ -5094,7 +4834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 60.96 50.8 0)
 			(effects
 				(font
@@ -5230,7 +4970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 86.36 50.8 0)
 			(effects
 				(font
@@ -5366,7 +5106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 111.76 50.8 0)
 			(effects
 				(font
@@ -5502,7 +5242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 137.16 50.8 0)
 			(effects
 				(font
@@ -5638,7 +5378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 162.56 50.8 0)
 			(effects
 				(font
@@ -5774,7 +5514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 187.96 50.8 0)
 			(effects
 				(font
@@ -5910,7 +5650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 213.36 50.8 0)
 			(effects
 				(font
@@ -6046,7 +5786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 35.56 76.2 0)
 			(effects
 				(font
@@ -6182,7 +5922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 60.96 76.2 0)
 			(effects
 				(font
@@ -6318,7 +6058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 86.36 76.2 0)
 			(effects
 				(font
@@ -6454,7 +6194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 111.76 76.2 0)
 			(effects
 				(font
@@ -6590,7 +6330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 137.16 76.2 0)
 			(effects
 				(font
@@ -6726,7 +6466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 162.56 76.2 0)
 			(effects
 				(font
@@ -6862,7 +6602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1.5u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.50u"
 			(at 213.36 76.2 0)
 			(effects
 				(font
@@ -6998,7 +6738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 60.96 101.6 0)
 			(effects
 				(font
@@ -7134,7 +6874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 86.36 101.6 0)
 			(effects
 				(font
@@ -7270,7 +7010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 111.76 101.6 0)
 			(effects
 				(font
@@ -7406,7 +7146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 137.16 101.6 0)
 			(effects
 				(font
@@ -7542,7 +7282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 162.56 101.6 0)
 			(effects
 				(font
@@ -7678,7 +7418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 187.96 101.6 0)
 			(effects
 				(font
@@ -7814,7 +7554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 213.36 101.6 0)
 			(effects
 				(font
@@ -7950,7 +7690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1.5u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.50u"
 			(at 60.96 127 0)
 			(effects
 				(font
@@ -8086,7 +7826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1.5u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.50u"
 			(at 111.76 127 0)
 			(effects
 				(font
@@ -8222,7 +7962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 137.16 127 0)
 			(effects
 				(font
@@ -8358,7 +8098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 162.56 127 0)
 			(effects
 				(font
@@ -8494,7 +8234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 187.96 127 0)
 			(effects
 				(font
@@ -8630,7 +8370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_Plated_1.00u"
 			(at 213.36 127 0)
 			(effects
 				(font
@@ -8799,73 +8539,6 @@
 			(project "keyboard"
 				(path "/aba759a1-f5bc-4fd5-8e46-feb8856865f6"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MX_Alps_Hybrid:MX-NoLED")
-		(at 50.8 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "203b57e7-55f2-4582-8584-afc028609e95")
-		(property "Reference" "K_35"
-			(at 50.8 121.0818 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "KEYSW"
-			(at 50.8 129.54 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "cb:Choc-MX-19mm-2u"
-			(at 50.8 127 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 127 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dbd66dac-0eea-4ae9-b21e-15dea79b5478")
-		)
-		(pin "2"
-			(uuid "9a2f0b82-3798-417e-9e39-ff7d2106b64a")
-		)
-		(instances
-			(project "keyboard"
-				(path "/aba759a1-f5bc-4fd5-8e46-feb8856865f6"
-					(reference "K_35")
 					(unit 1)
 				)
 			)
@@ -9201,140 +8874,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrid:MX-NoLED")
-		(at 128.27 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5aaf4137-031c-4828-8536-4fcd08f70cb3")
-		(property "Reference" "K_37"
-			(at 128.27 121.0818 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "KEYSW"
-			(at 128.27 129.54 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "cb:Choc-MX-19mm-1u"
-			(at 128.27 127 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 127 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 128.27 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b465b7b-0dad-4ed0-b051-83fd716488b2")
-		)
-		(pin "2"
-			(uuid "f2f25715-7f23-4836-880b-fac7fd6c979e")
-		)
-		(instances
-			(project "keyboard"
-				(path "/aba759a1-f5bc-4fd5-8e46-feb8856865f6"
-					(reference "K_37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MX_Alps_Hybrid:MX-NoLED")
-		(at 204.47 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7900e1a1-bc72-4850-9b9f-ce5c647c9d02")
-		(property "Reference" "K_39"
-			(at 204.47 44.8818 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "KEYSW"
-			(at 204.47 53.34 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "cb:Choc-MX-19mm-1.5u"
-			(at 204.47 50.8 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 50.8 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48298783-1295-4a23-bcdb-fdd0bc560c72")
-		)
-		(pin "2"
-			(uuid "1a272d4b-dea6-4b16-b6e9-50fce6ca59e9")
-		)
-		(instances
-			(project "keyboard"
-				(path "/aba759a1-f5bc-4fd5-8e46-feb8856865f6"
-					(reference "K_39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 360.68 104.14 0)
 		(unit 1)
@@ -9393,140 +8932,6 @@
 			(project "keyboard"
 				(path "/aba759a1-f5bc-4fd5-8e46-feb8856865f6"
 					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MX_Alps_Hybrid:MX-NoLED")
-		(at 204.47 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "86696609-7387-49d0-b04b-867da9765983")
-		(property "Reference" "K_38"
-			(at 204.47 19.4818 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "KEYSW"
-			(at 204.47 27.94 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "cb:Choc-MX-19mm-2u"
-			(at 204.47 25.4 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 25.4 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "996f53c1-27fd-4f30-9ab3-55559f7be3c4")
-		)
-		(pin "2"
-			(uuid "d695d2a1-e6a0-4af7-a1f2-ffc8390b136d")
-		)
-		(instances
-			(project "keyboard"
-				(path "/aba759a1-f5bc-4fd5-8e46-feb8856865f6"
-					(reference "K_38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MX_Alps_Hybrid:MX-NoLED")
-		(at 204.47 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c5e5d13-099c-4594-a994-dcd4b1d30b87")
-		(property "Reference" "K_40"
-			(at 204.47 70.2818 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "KEYSW"
-			(at 204.47 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "cb:Choc-MX-19mm-2.25u"
-			(at 204.47 76.2 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 76.2 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0204d321-1ef8-4509-9d9f-47adf31ef581")
-		)
-		(pin "2"
-			(uuid "8272cc90-cfc2-4d32-8ff4-847e80767ae5")
-		)
-		(instances
-			(project "keyboard"
-				(path "/aba759a1-f5bc-4fd5-8e46-feb8856865f6"
-					(reference "K_40")
 					(unit 1)
 				)
 			)
@@ -9723,140 +9128,6 @@
 			(project "keyboard"
 				(path "/aba759a1-f5bc-4fd5-8e46-feb8856865f6"
 					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MX_Alps_Hybrid:MX-NoLED")
-		(at 205.74 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ea150cb4-b7c7-4b63-9da2-9a38b71329ac")
-		(property "Reference" "K_41"
-			(at 205.74 95.6818 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "KEYSW"
-			(at 205.74 104.14 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "cb:Choc-MX-19mm-1.75u"
-			(at 205.74 101.6 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 101.6 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c64d906-d03b-4fd4-b392-eb59c9dc5305")
-		)
-		(pin "2"
-			(uuid "fb724afd-6fcb-4bb7-a75c-7aad85d4390c")
-		)
-		(instances
-			(project "keyboard"
-				(path "/aba759a1-f5bc-4fd5-8e46-feb8856865f6"
-					(reference "K_41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MX_Alps_Hybrid:MX-NoLED")
-		(at 101.6 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7b183a5-d44e-4b3f-9aaa-2b57da5a15c6")
-		(property "Reference" "K_36"
-			(at 101.6 121.0818 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "KEYSW"
-			(at 101.6 129.54 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "cb:Choc-MX-19mm-1.5u"
-			(at 101.6 127 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 127 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00215dbe-d964-412f-9178-a4102dc2b171")
-		)
-		(pin "2"
-			(uuid "602e37e3-d91d-4779-8638-63e3dd41dc76")
-		)
-		(instances
-			(project "keyboard"
-				(path "/aba759a1-f5bc-4fd5-8e46-feb8856865f6"
-					(reference "K_36")
 					(unit 1)
 				)
 			)
